@@ -49,9 +49,9 @@ php artisan migrate:fresh --seed
                 'updated_at'      =>  now(),
             ]);
         }
-                php artisan make:seed
 
             $this->call([
             Product::class
         ]);
+                php artisan make:seed
                 
