@@ -1,5 +1,8 @@
 Navigate to project directory: Open your terminal and use the cd command to navigate to the root directory of your Laravel project. 
 Install dependencies: If needed, run composer install to install any required PHP dependencies. composer install 
+Delete vendor file & composer.lock file
+run command:
+composer clear-cache
 composer update
 composer-dumpautoload
 Set up environment variables: Ensure your .env file is properly configured with database details and other environment settings. 
