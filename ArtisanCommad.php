@@ -37,7 +37,7 @@ Ex: 100 fake data store database products table
                 'updated_at'      =>  now(),
             ]);
         }
-php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed 
            for ($i = 0; $i < 100; $i++) {
             # code...
                 DB::table('products')->insert([
